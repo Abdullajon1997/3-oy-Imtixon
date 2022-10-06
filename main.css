@@ -1,0 +1,85 @@
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+}
+
+.body {
+  background-color:rgb(255, 216,69);
+}
+.logo
+{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  width: 610px;
+  margin-top: 50px;
+}
+
+
+.list__item{
+  background-color:#fff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 255px;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+.list{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.filter_select
+{
+  width: 260px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 0;
+}
+.select1
+{
+  width: 178px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 0;
+}
+.search
+{
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+ 
+}
+.btn
+{
+  width: 150px;
+ padding: 10px 20px;
+ border-radius: 15px;
+ background-color: #FFFFFF;
+ border: 1px solid ;
+ cursor: pointer;
+}
+
+
+.form__inner
+{
+  display: block;
+  text-align: center;
+  
+}
