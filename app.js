@@ -83,9 +83,5 @@ function sortArray (e)
     }
 }console.log(sortArray);
 
-const mapArray()
-{
-  
-}
 
 
