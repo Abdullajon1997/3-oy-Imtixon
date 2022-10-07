@@ -4,6 +4,17 @@ let elcard1=document.querySelector("#card1")
 
 
 
+
+elcard1.addEventListener("change" , (e)=>{
+  console.log(e.target.value);
+  sortArray(e.target.value)
+  render(pokemons)
+})
+
+
+
+
+
 const render=(array)=>{
   elList.innerHTML=" "
   for (pokemon of array){
@@ -49,5 +60,32 @@ console.log("changed",);
 console.log(fileteredArray);
 render(fileteredArray);
 })
+
+
+
+function sortArray (e)
+{
+  if(e==='A-z'){
+   pokemons = pokemons.sort(
+      (a, b)=>{
+       return a.name[0].charCodeAt() <= b.name[0].charCodeAt()? -1 : 1;
+      }
+    )
+    
+    }
+    
+    if(e==='z-A'){
+      pokemons = pokemons.sort(
+        (a, b)=>{
+      return a.name[0].charCodeAt() <= b.name[0].charCodeAt()? 1 : -1;
+    }
+    )
+    }
+}console.log(sortArray);
+
+const mapArray()
+{
+  
+}
 
 

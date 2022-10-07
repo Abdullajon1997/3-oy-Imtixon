@@ -3403,7 +3403,7 @@ var pokemons = [
       "name": "Hitmonlee",
       "img": "http://www.serebii.net/pokemongo/pokemon/106.png",
       "type": [
-      "Fighting"
+       "Fighting"
       ],
       "height": "1.50 m",
       "weight": "49.8 kg",
